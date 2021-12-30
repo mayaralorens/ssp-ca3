@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cinema>
+  <section name="New">
+    <entry>
+      <item>Spider Man: No Way Home</item>
+      <price>12.50</price>
+    </entry>
+    <entry>
+      <item>House of Gucci</item>
+      <price>15.00</price>
+    </entry>
+    <entry fourthDimension="true">
+      <item>Spider Man: No Way Home</item>
+      <price>22.00</price>
+    </entry>
+  </section>
+  <section name="Classics">
+    <entry>
+      <item>Gone With The Wind</item>
+      <price>6.95</price>
+    </entry>
+    <entry>
+      <item>Home Alone</item>
+      <price>4.50</price>
+    </entry>
+    <entry fourthDimension="true">
+      <item>How The Grinch Stole Christmas</item>
+      <price>22.0</price>
+    </entry>
+  </section>
+  <section name="HarryPotter-specials">
+    <entry>
+      <item>Harry Potter and the Sorcerer’s Stone</item>
+      <price>7.50</price>
+    </entry>
+    <entry>
+      <item> Harry Potter and the Chamber of Secrets</item>
+      <price>7.50</price>
+    </entry>
+    <entry fourthDimension="true">
+      <item> Harry Potter and the Prisoner of Azkaban</item>
+      <price>10.00</price>
+    </entry>
+  </section>
+  <section name="Lunch">
+    <entry>
+      <item>Small Popcorn</item>
+      <price>7.50</price>
+    </entry>
+    <entry>
+      <item>Large Popcorn</item>
+      <price>10.00</price>
+    </entry>
+    <entry vegetarian="true">
+      <item>Nachos</item>
+      <price>10.00</price>
+    </entry>
+  </section>
+  <section name="FamilyPackage">
+    <entry>
+      <item>2 small popcorns + 2 drinks</item>
+      <price>29.99</price>
+    </entry>
+    <entry>
+      <item>2 Large Popcorns + 4 drinks</item>
+      <price>39.99</price>
+    </entry>
+    <entry vegetarian="true">
+      <item>2 Portion of Nachos + 2 drinks</item>
+      <price>15.00</price>
+    </entry>
+  </section>
+  
+</cinema>
