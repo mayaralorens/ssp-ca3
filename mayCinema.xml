@@ -1,47 +1,90 @@
-<?xml version="1.0"?> 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:template match="/">
-    <table id="movieTable" border="1">
-        <thead>
-            <tr>
-                <th>Select Movie</th>
-                <th>Item</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-             
-        <tbody>
-
-            <xsl:for-each select="//section">
-                <tr>
-                    <td colspan="3">
-                        <xsl:value-of select="@name" />
-                    </td>
-                </tr>
-                <xsl:for-each select="entry">
-                    <tr>
-                        <xsl:attribute name="vegetarian">
-                            <xsl:value-of select="boolean(@vegetarian)" />
-                        </xsl:attribute>
-                        <td>
-                 <xsl:element name="img">				
-                <xsl:attribute name="src">				
-                <xsl:value-of select="picture"/>		  		
-              </xsl:attribute>	
-              <xsl:attribute name="width">200</xsl:attribute>						
-              <xsl:attribute name="align">left</xsl:attribute>		
-                </xsl:element>	
-                        </td>
-                        <td>
-                            <xsl:value-of select="item" />
-                        </td>
-                        <td align="right">
-                            <xsl:value-of select="price" />
-                        </td>
-                    </tr>
-                </xsl:for-each>
-            </xsl:for-each>
-        </tbody>
-    </table>
-</xsl:template>
-</xsl:stylesheet>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cinema>
+  <section name="New">
+    <entry>
+     <picture>img/spiderman.webp</picture>
+      <item>Spider Man: No Way Home</item>
+      <price>12.50</price>
+    </entry>
+    <entry>
+     <picture>img/houseofgucci.jpg</picture>
+      <item>House of Gucci</item>
+      <price>15.00</price>
+    </entry>
+     
+    <entry fourthDimension="true">
+    <picture>img/spiderman4dx.jpg</picture>
+      <item>Spider Man: No Way Home</item>
+      <price>22.00</price>
+    </entry>
+  </section>
+  <section name="Classics">
+    <entry>
+    <picture>img/gonewiththewind.jpg</picture>
+      <item>Gone With The Wind</item>
+      <price>6.95</price>
+    </entry>
+    <entry>
+    <picture>img/Home-Alone.jpg</picture>
+      <item>Home Alone</item>
+      <price>4.50</price>
+    </entry>
+    <entry fourthDimension="true">
+    <picture>img/grinch.jpg</picture>
+      <item>How The Grinch Stole Christmas</item>
+      <price>22.0</price>
+    </entry>
+  </section>
+  <section name="HarryPotter-specials">
+    <entry>
+    <picture>img/hp1.jpg</picture>
+      <item>Harry Potter and the Sorcerer’s Stone</item>
+      <price>7.50</price>
+    </entry>
+    <entry>
+    <picture>img/hp2.jpg</picture>
+      <item> Harry Potter and the Chamber of Secrets</item>
+      <price>7.50</price>
+    </entry>
+    <entry fourthDimension="true">
+    <picture>img/hp3.jpg</picture>
+      <item> Harry Potter and the Prisoner of Azkaban</item>
+      <price>10.00</price>
+    </entry>
+  </section>
+  <section name="Lunch">
+    <entry>
+    <picture>img/smallpopcorn.png</picture>
+      <item>Small Popcorn</item>
+      <price>7.50</price>
+    </entry>
+    <entry>
+      <picture>img/largepopcorn.jpg</picture>
+      <item>Large Popcorn</item>
+      <price>10.00</price>
+    </entry>
+    <entry vegetarian="true">
+        <picture>img/nachos.webp</picture>
+      <item>Nachos</item>
+      <price>10.00</price>
+    </entry>
+  </section>
+  <section name="FamilyPackage">
+    <entry>
+        <picture>img/combo1.jpg</picture>
+      <item>2 small popcorns + 2 drinks</item>
+      <price>29.99</price>
+    </entry>
+    <entry>
+     <picture>img/combo2.jpg</picture>
+      <item>2 Large Popcorns + 4 drinks</item>
+      <price>39.99</price>
+    </entry>
+    <entry vegetarian="true">
+     <picture>img/combo3.jpg</picture>
+      <item>2 Portion of Nachos + 2 drinks</item>
+      <price>15.00</price>
+    </entry>
+  </section>
+  
+</cinema>
