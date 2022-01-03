@@ -5,41 +5,10 @@
 <body>
 <div class="container">
         <div class="jumbotron">
-            <!--name of the burger shop-->
+            
             <h1>MayCinema</h1>
             </div>
-             <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class="card-title">Spider Man</h1>
-                            <img src="img/spiderman.webp" alt="Spider Man" class="card_image"
-                                title="Spider Man"/>
-                            <p class="card-text">Portion of chicken wings with sauce and ketchup and garlic mayo on the
-                                side (it serves two
-                                people)
-                            </p>
-                            <p class="price"><strong>€13.00</strong></p>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                             <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class="card-title">Spider Man</h1>
-                            <img src="img/spiderman.webp" alt="Spider Man" class="card_image"
-                                title="Spider Man"/>
-                            <p class="card-text">Portion of chicken wings with sauce and ketchup and garlic mayo on the
-                                side (it serves two
-                                people)
-                            </p>
-                            <p class="price"><strong>€13.00</strong></p>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
+            
     <table id="movieTable" border="1">
         <thead>
             <tr>
