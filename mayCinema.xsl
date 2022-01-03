@@ -5,8 +5,9 @@
 <body>
 <div class="container">
         <div class="jumbotron">
+
             
-            <h1>MayCinema</h1>
+            <h3>MayCinema</h3>
             </div>
             
     <table id="movieTable" border="1">
