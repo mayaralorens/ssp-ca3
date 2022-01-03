@@ -11,3 +11,16 @@ body {
 .container {
     background-color: rgba(0, 0, 0, 0.795);
 }
+.jumbotron {
+
+    background-image: url(../img/cinemajumbotron.webp);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+.jumbotron h3 {
+
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
