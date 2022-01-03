@@ -3,6 +3,11 @@
 <xsl:template match="/">
 <html>
 <body>
+<div class="container">
+        <div class="jumbotron">
+            <!--name of the burger shop-->
+            <h1>MayCinema</h1>
+            </div>
     <table id="movieTable" border="1">
         <thead>
             <tr>
@@ -45,6 +50,7 @@
             </xsl:for-each>
         </tbody>
     </table>
+    </div>
     </body>
     </html>
 </xsl:template>
