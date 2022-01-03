@@ -1,0 +1,13 @@
+
+body {
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    background-image: url(img/burger-photography-tips-styling.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.795);
+}
