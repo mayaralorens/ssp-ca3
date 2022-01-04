@@ -15,13 +15,13 @@ body {
 .jumbotron {
 
     
-    background-image: url(https://media.giphy.com/media/55bM8mirLn2zC/giphy.gif);
+    background-image: url(https://media.giphy.com/media/5wikad3qSOqAg/giphy.gif);
     background-repeat: repeat;
     background-size: contain;
-    opacity: 0.8;
     margin-bottom: 0;
     padding-bottom: 7%;
     padding-top: 7%;
+    
   
 
 }
