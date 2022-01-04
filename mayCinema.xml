@@ -35,7 +35,7 @@
       <price>22.0</price>
     </entry>
   </section>
-  <section name="HarryPotter-specials">
+  <section name="HarryPotter-Specials">
     <entry>
     <picture>img/hp1.jpg</picture>
       <item>Harry Potter and the Sorcerer’s Stone</item>
@@ -69,7 +69,7 @@
       <price>10.00</price>
     </entry>
   </section>
-  <section name="FamilyPackage">
+  <section name="Family-Pack">
     <entry>
         <picture>img/combo1.jpg</picture>
       <item>2 small popcorns + 2 drinks</item>

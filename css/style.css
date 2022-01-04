@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: rgb(197, 187, 187);
+    background-color: whitesmoke;
     
 }
 .jumbotron {
@@ -25,6 +25,15 @@ body {
   
 
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .container {
+    padding-top: 102px;
+  }
 div.title h3{
    
     font-size: 100px;
@@ -50,7 +59,7 @@ th, tr, td {
  
 }
 tr:nth-child(odd) {
-    background-color: whitesmoke;
+    background-color: white;
     
 }
 tr:nth-child(even) {
@@ -60,7 +69,23 @@ tr:nth-child(even) {
  th {
     text-align: center;
     
-    background-color: rgb(29, 29, 65);
+    background-color: black;
     color: white;
     padding: 35px; 
+}
+td{
+    text-align: center;
+}
+#movieTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+div.footer{
+    margin-top:2%;
+    padding:auto;
+    background-color: black;
+    background-image: url(https://media.giphy.com/media/DheYi0E2wz3lS/giphy.gif);
+    background-repeat: no-repeat;
+   
+  
 }

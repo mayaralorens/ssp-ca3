@@ -11,11 +11,11 @@
            
             </div>
 
-            <div class="title">
+            <div class="title" id="myTitle">
                <h3>MayCinema</h3>
             </div>
             
-    <table id="movieTable">
+    <table  id="movieTable">
         <thead>
             <tr>
                 <th>Select Movie</th>
@@ -56,8 +56,15 @@
                 </xsl:for-each>
             </xsl:for-each>
         </tbody>
+        
     </table>
+   
+            <div class="footer" >
+            
+               
+            </div>
     </div>
+   
     </body>
     </html>
 </xsl:template>
