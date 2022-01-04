@@ -1,0 +1,19 @@
+{
+  "name": "ssp-ca3-mayara",
+  "version": "0.0.1",
+  "description": "final CA- server side project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayaralorens/ssp-ca3.git"
+  },
+  "author": "Mayara Lorens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayaralorens/ssp-ca3/issues"
+  },
+  "homepage": "https://github.com/mayaralorens/ssp-ca3#readme"
+}
