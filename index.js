@@ -35,8 +35,8 @@ router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type' : 'text/html'});
 
-    let xml = fs.readFileSync('PaddysCafe.xml', 'utf8'),
-        xsl = fs.readFileSync('PaddysCafe.xsl', 'utf8');
+    let xml = fs.readFileSync('mayCinema.xml', 'utf8'),
+        xsl = fs.readFileSync('mayCinema.xsl', 'utf8');
 
     console.log(xml);
     console.log(xsl);
@@ -61,14 +61,14 @@ router.post('/post/json', function (req, res) {
 
         console.log(obj)
 
-        XMLtoJSON('PaddysCafe.xml', function (err, result) {
+        XMLtoJSON('mayCinema.xml', function (err, result) {
             if (err) throw (err);
             
             result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, "  "));
 
-            JSONtoXML('PaddysCafe.xml', result, function(err){
+            JSONtoXML('mayCinema.xml', result, function(err){
                 if (err) console.log(err);
             });
         });
@@ -86,14 +86,14 @@ router.post('/post/delete', function (req, res) {
 
         console.log(obj)
 
-        XMLtoJSON('PaddysCafe.xml', function (err, result) {
+        XMLtoJSON('mayCinema.xml', function (err, result) {
             if (err) throw (err);
             
             delete result.menu.section[obj.section].entry[obj.entree];
 
             console.log(JSON.stringify(result, null, "  "));
 
-            JSONtoXML('PaddysCafe.xml', result, function(err){
+            JSONtoXML('mayCinema.xml', result, function(err){
                 if (err) console.log(err);
             });
         });
