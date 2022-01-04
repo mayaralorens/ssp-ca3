@@ -1,121 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-   integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-   <!-- My CSS file-->
-  <link rel="stylesheet" type=text/css href="css/style.css">
-  </head>
-   <body>
-      <div class="container">
-         <div class="jumbotron">
-            <h3>Maycinema</h3>
-         </div>
-        
-         <table id="movieTable">
-            <thead>
-               <tr>
-                  <th>Select Movie</th>
-                  
-                  <th>Item</th>
-                  <th>Price</th>
-                  
-                  
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td colspan="3">New</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/spiderman.webp" width="200" align="left"></td>
-                  <td>Spider Man: No Way Home</td>
-                  <td align="right">12.50</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/houseofgucci.jpg" width="200" align="left"></td>
-                  <td>House of Gucci</td>
-                  <td align="right">15.00</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/spiderman4dx.jpg" width="200" align="left"></td>
-                  <td>Spider Man: No Way Home</td>
-                  <td align="right">22.00</td>
-               </tr>
-               <tr>
-                  <td colspan="3">Classics</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/gonewiththewind.jpg" width="200" align="left"></td>
-                  <td>Gone With The Wind</td>
-                  <td align="right">6.95</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/Home-Alone.jpg" width="200" align="left"></td>
-                  <td>Home Alone</td>
-                  <td align="right">4.50</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/grinch.jpg" width="200" align="left"></td>
-                  <td>How The Grinch Stole Christmas</td>
-                  <td align="right">22.0</td>
-               </tr>
-               <tr>
-                  <td colspan="3">HarryPotter-specials</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/hp1.jpg" width="200" align="left"></td>
-                  <td>Harry Potter and the Sorcerer’s Stone</td>
-                  <td align="right">7.50</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/hp2.jpg" width="200" align="left"></td>
-                  <td> Harry Potter and the Chamber of Secrets</td>
-                  <td align="right">7.50</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/hp3.jpg" width="200" align="left"></td>
-                  <td> Harry Potter and the Prisoner of Azkaban</td>
-                  <td align="right">10.00</td>
-               </tr>
-               <tr>
-                  <td colspan="3">Lunch</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/smallpopcorn.png" width="200" align="left"></td>
-                  <td>Small Popcorn</td>
-                  <td align="right">7.50</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/largepopcorn.jpg" width="200" align="left"></td>
-                  <td>Large Popcorn</td>
-                  <td align="right">10.00</td>
-               </tr>
-               <tr vegetarian="true">
-                  <td><img src="img/nachos.webp" width="200" align="left"></td>
-                  <td>Nachos</td>
-                  <td align="right">10.00</td>
-               </tr>
-               <tr>
-                  <td colspan="3">FamilyPackage</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/combo1.jpg" width="200" align="left"></td>
-                  <td>2 small popcorns + 2 drinks</td>
-                  <td align="right">29.99</td>
-               </tr>
-               <tr vegetarian="false">
-                  <td><img src="img/combo2.jpg" width="200" align="left"></td>
-                  <td>2 Large Popcorns + 4 drinks</td>
-                  <td align="right">39.99</td>
-               </tr>
-               <tr vegetarian="true">
-                  <td><img src="img/combo3.jpg" width="200" align="left"></td>
-                  <td>2 Portion of Nachos + 2 drinks</td>
-                  <td align="right">15.00</td>
-               </tr>
-            </tbody>
-         </table>
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link rel="stylesheet" type=text/css href="css/style.css">
+    <!--Amatic SC font-->
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+
+</head>
+
+<body>
+
+   <div class="container">
+      <div class="jumbotron">
+
       </div>
-   </body>
+
+      <div class="title">
+         <h3>MayCinema</h3>
+      </div>
+      <table id="movieTable">
+         <thead>
+            <tr>
+               <th>Select Movie</th>
+               <th>Item</th>
+               <th>Price</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td colspan="3">New</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/spiderman.webp" width="200" align="left"></td>
+               <td>Spider Man: No Way Home</td>
+               <td align="right">12.50</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/houseofgucci.jpg" width="200" align="left"></td>
+               <td>House of Gucci</td>
+               <td align="right">15.00</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/spiderman4dx.jpg" width="200" align="left"></td>
+               <td>Spider Man: No Way Home</td>
+               <td align="right">22.00</td>
+            </tr>
+            <tr>
+               <td colspan="3">Classics</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/gonewiththewind.jpg" width="200" align="left"></td>
+               <td>Gone With The Wind</td>
+               <td align="right">6.95</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/Home-Alone.jpg" width="200" align="left"></td>
+               <td>Home Alone</td>
+               <td align="right">4.50</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/grinch.jpg" width="200" align="left"></td>
+               <td>How The Grinch Stole Christmas</td>
+               <td align="right">22.0</td>
+            </tr>
+            <tr>
+               <td colspan="3">HarryPotter-specials</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/hp1.jpg" width="200" align="left"></td>
+               <td>Harry Potter and the Sorcerer’s Stone</td>
+               <td align="right">7.50</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/hp2.jpg" width="200" align="left"></td>
+               <td> Harry Potter and the Chamber of Secrets</td>
+               <td align="right">7.50</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/hp3.jpg" width="200" align="left"></td>
+               <td> Harry Potter and the Prisoner of Azkaban</td>
+               <td align="right">10.00</td>
+            </tr>
+            <tr>
+               <td colspan="3">Lunch</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/smallpopcorn.png" width="200" align="left"></td>
+               <td>Small Popcorn</td>
+               <td align="right">7.50</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/largepopcorn.jpg" width="200" align="left"></td>
+               <td>Large Popcorn</td>
+               <td align="right">10.00</td>
+            </tr>
+            <tr vegetarian="true">
+               <td><img src="img/nachos.webp" width="200" align="left"></td>
+               <td>Nachos</td>
+               <td align="right">10.00</td>
+            </tr>
+            <tr>
+               <td colspan="3">FamilyPackage</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/combo1.jpg" width="200" align="left"></td>
+               <td>2 small popcorns + 2 drinks</td>
+               <td align="right">29.99</td>
+            </tr>
+            <tr vegetarian="false">
+               <td><img src="img/combo2.jpg" width="200" align="left"></td>
+               <td>2 Large Popcorns + 4 drinks</td>
+               <td align="right">39.99</td>
+            </tr>
+            <tr vegetarian="true">
+               <td><img src="img/combo3.jpg" width="200" align="left"></td>
+               <td>2 Portion of Nachos + 2 drinks</td>
+               <td align="right">15.00</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</body>
+
 </html>

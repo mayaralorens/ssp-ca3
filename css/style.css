@@ -2,14 +2,15 @@
 body {
     font-family: 'Amatic SC';
     font-size: 35px;
-    background-image: url(img/burger-photography-tips-styling.jpg);
+    background-image: url(../img/movies.jpg);
     background-repeat: repeat;
     background-size: contain;
 
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color: rgb(197, 187, 187);
+    
 }
 .jumbotron {
 
@@ -18,20 +19,29 @@ body {
     background-repeat: repeat;
     background-size: contain;
     opacity: 0.8;
-    margin-bottom: 2%;
-    padding-bottom: 5%;
+    margin-bottom: 0;
+    padding-bottom: 7%;
+    padding-top: 7%;
+  
 
 }
-.jumbotron h3 {
+div.title h3{
    
     font-size: 100px;
-    color:red;
+    color:black;
     text-align: center;
     text-transform: lowercase;
     font-weight: bolder;
-    font-style: oblique;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    opacity: 1;
+    font-family: 'Amatic SC';
+    margin-bottom: 2%;
+    margin-top: 0;
+    background-color: black;
+    background-image: url(../img/title.jpg);
+    background-repeat: repeat;
+    background-size: 18%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
    
 }
 th, tr, td {
@@ -40,11 +50,17 @@ th, tr, td {
  
 }
 tr:nth-child(odd) {
-    background-color: rgb(121, 65, 65);
+    background-color: whitesmoke;
+    
+}
+tr:nth-child(even) {
+    background-color: black;
+    color: whitesmoke;
 }
  th {
     text-align: center;
-    background-color: white;
-    color: black;
-    padding: 30px; 
+    
+    background-color: rgb(29, 29, 65);
+    color: white;
+    padding: 35px; 
 }
