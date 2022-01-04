@@ -10,7 +10,7 @@
             <h3>MayCinema</h3>
             </div>
             
-    <table id="movieTable" border="1">
+    <table id="movieTable">
         <thead>
             <tr>
                 <th>Select Movie</th>
