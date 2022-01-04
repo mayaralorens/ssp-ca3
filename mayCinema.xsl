@@ -2,7 +2,16 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
 <html>
+<head>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link rel="stylesheet" type=text/css href="css/style.css">
+    <!--Amatic SC font-->
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+     <!-- My JavaScript file -"defer, so my script can be "loaded" on top"-->
+     <script defer src="js/script.js"></script>
 
+</head>
 <body>
 <div class="container">
         <div class="jumbotron">
