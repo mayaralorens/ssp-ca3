@@ -9,7 +9,7 @@
     <!--Amatic SC font-->
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
      <!-- My JavaScript file -"defer, so my script can be "loaded" on top"-->
-   
+    
 </head>
 <body>
 <div class="container">
