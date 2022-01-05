@@ -9,7 +9,104 @@
     <!--Amatic SC font-->
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
      <!-- My JavaScript file -"defer, so my script can be "loaded" on top"-->
+    <style>body {
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    background-image: url(../img/movies.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.container {
+    background-color: whitesmoke;
     
+}
+.jumbotron {
+
+    
+    background-image: url(https://media.giphy.com/media/5wikad3qSOqAg/giphy.gif);
+    background-repeat: repeat;
+    background-size: contain;
+    margin-bottom: 0;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    
+  
+
+}
+
+div.title h3{
+   
+    font-size: 100px;
+    color:black;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: bolder;
+    font-family: 'Amatic SC';
+    margin-bottom: 2%;
+    margin-top: 0;
+    background-color: black;
+    background-image: url(../img/title.jpg);
+    background-repeat: repeat;
+    background-size: 18%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+   
+}
+th, tr, td {
+
+    padding: 10px 25px;
+ 
+}
+tr:nth-child(odd) {
+    background-color: white;
+    
+}
+tr:nth-child(even) {
+    background-color: black;
+    color: whitesmoke;
+}
+ th {
+    text-align: center;
+    
+    background-color: black;
+    color: white;
+    padding: 35px; 
+}
+td{
+    text-align: center;
+}
+#movieTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+div.footer{
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: black;
+    background-image: url(https://media.giphy.com/media/ftqg6fMvi3R9LVcU0t/giphy.gif);
+    background-repeat: repeat;
+    background-position: left;
+    background-size: 120%;
+    opacity: 0.8;
+   
+    
+   
+  
+}
+
+#myFooter p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+</style>
 </head>
 <body>
 <div class="container">
