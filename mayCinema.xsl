@@ -59,7 +59,7 @@
                             <xsl:value-of select="item" />
                         </td>
                         <td align="right">
-                            <xsl:value-of select="price" />
+                          <span class="badge badge-danger">  <xsl:value-of select="price" /></span>
                         </td>
                     </tr>
                 </xsl:for-each>
