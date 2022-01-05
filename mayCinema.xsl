@@ -66,17 +66,17 @@
         </tbody>
         
     </table>
-   
-            <div class="footer" >
-            
-            <p>Mon & Tue CLOSED DURING LOCKDOWN</p>
+    <div class="footer" >
+            <div id="myFooter">
+            <p>Mon and Tue CLOSED DURING LOCKDOWN</p>
             <p>Wednesday 10.00 - 24.00</p>
             <p>Thursday 10:00 - 24:00</p>
             <p>Friday 10:00 - 23:00</p>
             <p>Saturday 10:00 - 23:00</p>
             <p>Sunday Closed</p>
             </div>
-    </div>
+         </div>
+      </div>
    
     </body>
     </html>

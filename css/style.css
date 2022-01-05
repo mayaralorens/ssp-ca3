@@ -73,12 +73,26 @@ td{
     margin-right: auto;
 }
 div.footer{
-    margin-top:2%;
-    padding:auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-color: black;
-    background-image: url(https://media.giphy.com/media/DheYi0E2wz3lS/giphy.gif);
-    background-repeat: no-repeat;
-    opacity: 0.5;
+    background-image: url(https://media.giphy.com/media/ftqg6fMvi3R9LVcU0t/giphy.gif);
+    background-repeat: repeat;
+    background-position: left;
+    background-size: 120%;
+    opacity: 0.8;
+   
+    
    
   
 }
+
+#myFooter p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
