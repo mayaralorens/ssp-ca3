@@ -32,7 +32,7 @@
     <entry fourthDimension="true">
     <picture>img/grinch.jpg</picture>
       <item>How The Grinch Stole Christmas</item>
-      <price>22.0</price>
+      <price>22.00</price>
     </entry>
   </section>
   <section name="HarryPotter-Specials">
