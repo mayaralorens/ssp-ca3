@@ -78,6 +78,7 @@ div.footer{
     background-color: black;
     background-image: url(https://media.giphy.com/media/DheYi0E2wz3lS/giphy.gif);
     background-repeat: no-repeat;
+    opacity: 0.5;
    
   
 }

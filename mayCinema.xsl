@@ -4,13 +4,12 @@
 <html>
 <head>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
    <link rel="stylesheet" type=text/css href="css/style.css">
     <!--Amatic SC font-->
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
      <!-- My JavaScript file -"defer, so my script can be "loaded" on top"-->
-     <script defer src="js/script.js"></script>
-
+   
 </head>
 <body>
 <div class="container">
@@ -27,7 +26,7 @@
     <table  id="movieTable">
         <thead>
             <tr>
-                <th>Select Movie</th>
+                <th>Movie</th>
                 <th>Item</th>
                 <th>Price</th>
             </tr>
@@ -38,8 +37,8 @@
             <xsl:for-each select="//section">
                 <tr>
                     <td colspan="3">
-                        <xsl:value-of select="@name" />
-                    </td>
+                       <xsl:value-of select="@name" /> 
+                                        </td>
                 </tr>
                 <xsl:for-each select="entry">
                     <tr>
@@ -70,7 +69,12 @@
    
             <div class="footer" >
             
-               
+            <p>Mon & Tue CLOSED DURING LOCKDOWN</p>
+            <p>Wednesday 10.00 - 24.00</p>
+            <p>Thursday 10:00 - 24:00</p>
+            <p>Friday 10:00 - 23:00</p>
+            <p>Saturday 10:00 - 23:00</p>
+            <p>Sunday Closed</p>
             </div>
     </div>
    
