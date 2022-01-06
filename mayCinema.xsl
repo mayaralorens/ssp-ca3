@@ -122,7 +122,7 @@ div.footer{
             <div class="title" id="myTitle">
                <h3>MayCinema</h3>
             </div>
-            
+            <!--I based myself on your xsl code:https://github.com/mikhail-cct/ssp-practical/blob/main/PaddysCafe.xsl-->
     <table  id="movieTable">
         <thead>
             <tr>
@@ -150,6 +150,7 @@ div.footer{
                 <xsl:attribute name="src">				
                 <xsl:value-of select="picture"/>		  		
               </xsl:attribute>	
+              <!--I tried to adjust all my pictures so they'd look the same size and I wanted them all on the left size. I did manage to make them the same size.-->
               <xsl:attribute name="width">200</xsl:attribute>						
               <xsl:attribute name="align">left</xsl:attribute>		
                 </xsl:element>	
@@ -158,6 +159,7 @@ div.footer{
                             <xsl:value-of select="item" />
                         </td>
                         <td align="right">
+                        <!--a badge to enhance prices on my website-->
                           <span class="badge badge-danger">  <xsl:value-of select="price" /></span>
                         </td>
                     </tr>
