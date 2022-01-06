@@ -2,6 +2,7 @@
  * https://github.com/mikhail-cct/ssp-practical/blob/main/index.js
  * I even kept Mikhail's comments. I only renamed paddys cafe for mayCinema. 
  * This part I did not know if I was supposed to change it and create everything myself or not.
+ * For my json package I followed your instructions in class: "npm init" and I started from there.
  */
 const   http = require('http'), //This module provides the HTTP server functionalities
         path = require('path'), //The path module provides utilities for working with file and directory paths
