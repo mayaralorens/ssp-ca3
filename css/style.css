@@ -1,4 +1,4 @@
-
+/*All these forms of styling my webpage were extracted from w3schools. Most of them I let the program indicate me which form of design would be a better fit. I would test all sizes and colors in order to find the one more appropriate for my page.*/
 body {
     font-family: 'Amatic SC';
     font-size: 35px;
@@ -68,6 +68,7 @@ tr:nth-child(even) {
 td{
     text-align: center;
 }
+/*code for centralizing table. Extracted from w3schools: https://www.w3schools.com/howto/howto_css_table_center.asp*/
 #movieTable{
     margin-left: auto;
     margin-right: auto;

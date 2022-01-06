@@ -3,13 +3,16 @@
 <xsl:template match="/">
 <html>
 <head>
+<!--Boostrap link from my client-side assignment. It was provided by our previous lecturer -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    <link rel="stylesheet" type=text/css href="css/style.css">
     <!--Amatic SC font-->
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-     <!-- My JavaScript file -"defer, so my script can be "loaded" on top"-->
-    <style>body {
+   <!--The reason why there is no javaScript file is because I did not manage to complete the last step of my assignment. Therefore, my javaScript ended up not working-->
+    <style>
+    <!--I copied all the content from my css file because I tried to use the command node index.js my page was desconfigured. I think my code was not accessing my css folder properly -->
+    body {
     font-family: 'Amatic SC';
     font-size: 35px;
     background-image: url(../img/movies.jpg);
