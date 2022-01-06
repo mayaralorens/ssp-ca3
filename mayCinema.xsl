@@ -151,6 +151,7 @@ div.footer{
                 <xsl:value-of select="picture"/>		  		
               </xsl:attribute>	
               <!--I tried to adjust all my pictures so they'd look the same size and I wanted them all on the left size. I did manage to make them the same size.-->
+              <!--https://stackoverflow.com/questions/13780145/inserting-images-from-xml-to-xsl-document-->
               <xsl:attribute name="width">200</xsl:attribute>						
               <xsl:attribute name="align">left</xsl:attribute>		
                 </xsl:element>	
