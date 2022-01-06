@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--I based myself on this code:https://github.com/mikhail-cct/ssp-practical/blob/main/PaddysCafe.xml
+I decided to go for movies instead of a food menu.
+I added a <picture> tag to my xml-->
 <cinema>
   <section name="New">
     <entry>
