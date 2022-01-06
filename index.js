@@ -1,3 +1,8 @@
+/**This entire code was extracted from:
+ * https://github.com/mikhail-cct/ssp-practical/blob/main/index.js
+ * I even kept Mikhail's comments. I only renamed paddys cafe for mayCinema. 
+ * This part I did not know if I was supposed to change it and create everything myself or not.
+ */
 const   http = require('http'), //This module provides the HTTP server functionalities
         path = require('path'), //The path module provides utilities for working with file and directory paths
         express = require('express'), //This module allows this app to respond to HTTP requests, defines the routing and renders back the required content
